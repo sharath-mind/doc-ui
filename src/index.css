@@ -1,0 +1,25 @@
+:root {
+  --yellow: #eadb46;
+  --skyblue: #62bbcb;
+  --textgray: #302d34;
+  --iconcolor: #302d34;
+  --background: #f6f4f7;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background)
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}

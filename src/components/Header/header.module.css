@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    padding: 1rem;
+    margin: 1rem 0px;
+    align-items: center;
+    justify-content: flex-end;
+    gap:1rem;
+}
+.logo {
+    width: 2.7rem;
+    height: 2.7rem;
+    background: var(--yellow);
+    border: 4px solid var(--skyblue);
+    border-radius: 2rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-right:auto;
+    
+}
+
+.logo div{
+    place-self: center;
+    font-weight: 600;
+    font-size:0.8rem;
+}
+
+.bellIcon {
+    margin-right: 5px;
+}
+
+.bellIcon img {
+    width: 2rem;
+}
+
+.optionIcon img {
+    width: 2rem;
+}

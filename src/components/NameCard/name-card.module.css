@@ -1,0 +1,22 @@
+.nameCard {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 1rem;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.name div {
+    font-size: 3rem;
+    font-weight: 600;;
+}
+
+.name p {
+    color: var(--skyblue);
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.img img{
+    width: 4.5rem;
+}
